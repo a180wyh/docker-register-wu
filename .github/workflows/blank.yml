@@ -27,7 +27,7 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/johngong/qbittorrent:4.6.0-4.6.0.10 docker://registry.cn-guangzhou.aliyuncs.com/nastoolwu/qbittorrent:4.6.0-4.6.0.10
+         skopeo copy docker://docker.io/johngong/qbittorrent:4.6.0-4.6.0.10 docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/qbittorrent:4.6.0-4.6.0.10
       #skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-guangzhou.aliyuncs.com/nastoolwu/sun-panel:1.4.0
 #yohe/nastool:2.9https://registry.hub.docker.com/r/yohe/nastool/tags 
 
