@@ -27,7 +27,7 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/zishuo/embyserver:latest docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/embyserver:latest
+         skopeo copy docker://ghcr.io/monlor/xiaoya-alist:latest docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/xiaoya-alist:latest
       #skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://registry.cn-guangzhou.aliyuncs.com/nastoolwu/sun-panel:1.4.0
-#yohe/nastool:2.9https://registry.hub.docker.com/r/yohe/nastool/tags 
+#yohe/nastool:2.9https://registry.hub.docker.com/r/yohe/nastool/tags ghcr.io/monlor/xiaoya-alist 
 
