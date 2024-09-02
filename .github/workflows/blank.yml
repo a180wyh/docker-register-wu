@@ -27,7 +27,7 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/flik007/nastools-fixed:2.9.1 docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/nas-tools:2.9.1
+         skopeo copy docker://docker.io/outlovecn/portainer-cn:latest docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/portainer-cn:latest
 #dockerhub镜像源：docker.io    阿里云
 #         skopeo copy docker://docker.io/flik007/nastools-fixed:2.9.1 docker://registry.cn-hangzhou.aliyuncs.com/nastoolwu/nas-tools:2.9.1
 
